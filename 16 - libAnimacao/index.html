@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- lib Animation -->
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  <style>
+    body {
+      background: rgb(11, 28, 85);
+      color: white;
+      font-size: 40px;
+    }
+    .container {
+      min-height: 100vh;
+    }
+  </style>
+  <title>Lib animação de texto</title>
+</head>
+<body>
+<div data-aos="fade-up" class="container">
+  <p>Hello, world!</p>
+</div>
+<div data-aos="fade-left" class="container">
+  <p>Hello, world!</p>
+</div>
+<div data-aos="flip-left" class="container">
+  <p>Hello, world!</p>
+</div>
+<div data-aos="zoom-in" class="container">
+  <p>Hello, world!</p>
+</div>
+
+  <!-- Script animation -->
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
